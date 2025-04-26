@@ -1,0 +1,50 @@
+.quienes-somos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+  .quienes-somos-image {
+    width: 15%; /* Ajusta el tamaño de la imagen a un 80% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Da espacio entre la imagen y el texto */
+    border-radius: 8px; /* Bordes redondeados en la imagen (opcional) */
+  }
+
+  .quienes-somos-text {
+    width: 60%; /* Ajusta el ancho del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    padding: 20px; /* Espacio interno alrededor del texto */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    border-radius: 8px; /* Bordes redondeados en el contenedor de texto (opcional) */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333; /* Cambié el color del texto a negro */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .btn-start {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-start:hover {
+    background-color: #0097a7;
+  }
+  

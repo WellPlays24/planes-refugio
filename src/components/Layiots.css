@@ -1,0 +1,71 @@
+.layiots-container {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .table {
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table td {
+    background-color: #fff;
+  }
+  
+  .table-bordered {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .actividades-list, .premios-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .actividad-card, .premio-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actividad-card h5, .premio-card h4 {
+    color: #007bff;
+    font-size: 1.2rem;
+  }
+  
+  .actividad-card p, .premio-card p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
