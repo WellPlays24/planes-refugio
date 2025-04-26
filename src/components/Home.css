@@ -46,3 +46,26 @@ p {
 .btn-start:hover {
   background-color: #0097a7;
 }
+
+/* Estilo para la sección "Hecho por" */
+.made-by {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.made-by-name {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.made-by p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px;
+}
+
+.made-by-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

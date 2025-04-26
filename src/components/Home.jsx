@@ -24,6 +24,11 @@ function Home() {
         <Link to="/layiots" className="btn btn-primary">Layiots</Link>
       </div>
       
+      {/* Sección Hecho por */}
+      <div className="made-by">
+        <p>Hecho por: <span className="made-by-name"> Wellington</span></p>
+      </div>
+
     </section>
   );
 }

@@ -26,4 +26,14 @@
   .carousel-caption p {
     color: #fff;
   }
+
+  /* Cambiar color de los iconos de control de las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #e3192d; /* Puedes usar cualquier color que prefieras */
+  border-radius: 50%; /* Para hacerlo redondeado */
+}
+
+
+
   
