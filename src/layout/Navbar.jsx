@@ -25,11 +25,12 @@ function Navbar() {
               <Link className="nav-link" to="/reglas">Reglas</Link> {/* Cambiado a Link */}
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/viajes-realizados">Viajes Realizados</Link> {/* Cambiado a Link */}
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" to="/layiots">Layiots</Link> {/* Cambiado a Link */}
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/viajes-realizados">Viajes Realizados</Link> {/* Cambiado a Link */}
+            </li>
+           
           </ul>
         </div>
       </div>
