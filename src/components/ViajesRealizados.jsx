@@ -13,7 +13,7 @@ function ViajesRealizados() {
       id: 1,
       nombre: "Viaje a la playa",
       fecha: "2023-05-01",
-      lugar: "Cruzita",
+      lugar: "Crucita",
       descripcion: "Un viaje increíble para relajarse junto al mar.",
       imagen: viaje1, // Usamos la variable de la imagen importada
     },
