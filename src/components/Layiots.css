@@ -12,7 +12,7 @@
   
   h2 {
     font-size: 2rem;
-    color: #007bff;
+    color: #c56423;
     margin-bottom: 1rem;
   }
   
@@ -30,7 +30,7 @@
   }
   
   .table th {
-    background-color: #007bff;
+    background-color: #c56423;
     color: white;
   }
   
@@ -60,7 +60,7 @@
   }
   
   .actividad-card h5, .premio-card h4 {
-    color: #007bff;
+    color: #55ff00;
     font-size: 1.2rem;
   }
   

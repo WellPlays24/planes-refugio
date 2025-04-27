@@ -1,0 +1,10 @@
+:root {
+    --verde-olivo: #6B8E23;  /* Verde olivo */
+    --naranja: #FF7F00;     /* Naranja */
+  }
+  
+  body {
+    background-color: var(--gris-claro);
+    color: var(--gris-oscuro);
+  }
+  

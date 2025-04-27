@@ -31,7 +31,6 @@ function Layiots() {
 
   return (
     <section className="layiots-container">
-      <h1>Layiots - Top Usuarios</h1>
       
       {/* Sección del Top 5 de usuarios con más Layiots */}
       <h2>Top 7 Usuarios con Más Layiots</h2>

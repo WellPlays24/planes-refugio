@@ -14,7 +14,7 @@ function ViajesRealizados() {
       nombre: "Viaje a la playa",
       fecha: "2023-05-01",
       lugar: "Crucita",
-      descripcion: "Un viaje increíble para relajarse junto al mar.",
+      descripcion: "",
       imagen: viaje1, // Usamos la variable de la imagen importada
     },
     {
@@ -22,7 +22,7 @@ function ViajesRealizados() {
       nombre: "Aventura en la playa",
       fecha: "2023-06-15",
       lugar: "Puerto López",
-      descripcion: "Exploración de playas, montañas y senderos en la naturaleza.",
+      descripcion: "",
       imagen: viaje2, // Usamos la variable de la imagen importada
     },
     {
@@ -30,7 +30,7 @@ function ViajesRealizados() {
       nombre: "Tour en la selva",
       fecha: "2023-07-20",
       lugar: "Naranjal - Finca Mamá Angelita",
-      descripcion: "Un tour único para explorar la biodiversidad.",
+      descripcion: "",
       imagen: viaje3, // Usamos la variable de la imagen importada
     },
   ];

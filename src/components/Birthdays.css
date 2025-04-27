@@ -1,0 +1,146 @@
+/* Contenedor principal */
+.cumpleaños-container {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Título principal */
+  .cumpleaños-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el contenedor del calendario */
+  .calendar-container {
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el calendario de react-calendar */
+  .react-calendar {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .react-calendar__navigation {
+    background-color: #ff7f00; /* Naranja */
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+  }
+  
+  .react-calendar__navigation button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .react-calendar__navigation button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Cambios en el día de la semana y fecha seleccionada */
+  .react-calendar__month-view__weekdays {
+    background-color: #ff7f00;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: #e74c3c; /* Color de fin de semana */
+  }
+  
+  .react-calendar__tile {
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+  }
+  
+  .react-calendar__tile:hover {
+    background-color: #ff7f00;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .react-calendar__tile:focus {
+    outline: none;
+    background-color: #e67e22;
+    color: white;
+  }
+  
+  /* Estilo de la lista de cumpleaños */
+  .birthday-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Estilo de las tarjetas de cumpleaños */
+  .birthday-card {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .birthday-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .birthday-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .birthday-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+
+  
+  .survey-button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .survey-button-container a {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #ff7f00;  /* Naranja */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .survey-button-container a:hover {
+    background-color: #e67e22;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #58d020;
+    margin-top: 20px;
+  }

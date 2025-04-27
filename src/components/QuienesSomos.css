@@ -1,11 +1,55 @@
+.quienes-somos-container {
+    padding: 2rem;
+    text-align: center;
+    color: rgb(221, 121, 39);
+  }
 
-
-
-
-
-
-
-
-
-
-
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(95, 222, 45);
+  }
+  
+  .quienes-somos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .quienes-somos-image-container {
+    width: 100%;
+    max-width: 600px;  /* Ajusta el tamaño máximo */
+  }
+  
+  .image-rectangular {
+    width: 80%;
+    height: auto;  /* Mantiene la proporción de la imagen */
+  }
+  
+  .quienes-somos-text {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f9f9f9;  /* Fondo gris claro para el texto */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    color: rgb(233, 103, 22);
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  strong {
+    color: #007bff; /* Un color azul para destacar el "Bienvenido a bordo" */
+  }
+  
