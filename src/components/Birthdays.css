@@ -144,3 +144,48 @@
     color: #58d020;
     margin-top: 20px;
   }
+
+  /* Estilo del botón Felicitar */
+.birthday-card button {
+  background-color: #FF7F00; /* Naranja */
+  color: #d4e7d8; /* Verde */
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.birthday-card button:hover {
+  background-color: #e67e00; /* Naranja más oscuro al pasar el cursor */
+  transform: scale(1.05); /* Efecto de ampliación al hacer hover */
+}
+
+.view-mode-selector {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-mode-selector button {
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.view-mode-selector button:hover {
+  background-color: #e67e22;
+}
+
+.view-mode-selector button.active {
+  background-color: #e67e22;
+  font-weight: bold;
+}

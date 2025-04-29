@@ -43,7 +43,7 @@ import alexandertibanta from '../assets/birthdays/alexandertibanta.png';
 
 
 const birthdayMembers = [
-  { id: 0, name: 'Wellington Castillo', birthday: '1999-05-31', place: 'Machala', image: well }, //   30 de may
+  { id: 0, name: 'Wellington Castillo', birthday: '1999-05-31', place: 'Machala', image: well , account: "2205549679"}, //   30 de may
   { id: 1, name: 'Rebecca Moysam', birthday: '2003-05-09', place: 'Guayaquil', image: becca }, //   8 de may
   { id: 2, name: 'Damiana Herdoiza', birthday: '2005-11-08', place: 'Guayaquil', image: damiana }, //   7 de nov
   { id: 3, name: 'Ángel PK', birthday: '1998-05-13', place: 'Guayaquil', image: angel }, //   12 de mayo
