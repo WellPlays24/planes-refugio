@@ -12,7 +12,7 @@ import juanpablo from '../assets/admins/juanpablo.png';
 import dayanara from '../assets/admins/dayanara.png';
 import pedro from '../assets/admins/pedro.png';
 import gabriel from '../assets/admins/gabriel.png';
-//import elizabeth from '../assets/admins/elizabeth.png';
+import haru from '../assets/admins/haru.png';
 import mildred from '../assets/admins/mildred.png';
 import unknow from '../assets/admins/unknow.png';
 
@@ -33,7 +33,7 @@ const staffMembers = [
 
 /*
 * Haru no e añadida por que aun no tiene ningun plan!
-* { id: 12, name: 'Elizabeth',            role: 'Admin Santa Elena', image: elizabeth, phone: '593997362590' },
+* { id: 12, name: 'Haru Tomalá',            role: 'Admin Santa Elena', image: haru, phone: '593997362590' },
 */
 
 
