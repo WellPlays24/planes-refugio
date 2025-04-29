@@ -8,85 +8,34 @@ import danny from '../assets/admins/danny.png';
 import alex from '../assets/admins/alex.png';
 import well from '../assets/admins/well.png';
 import bernal from '../assets/admins/bernal.png';
-import damian from '../assets/admins/damian.png';
+import juanpablo from '../assets/admins/juanpablo.png';
 import dayanara from '../assets/admins/dayanara.png';
 import pedro from '../assets/admins/pedro.png';
+import gabriel from '../assets/admins/gabriel.png';
+//import elizabeth from '../assets/admins/elizabeth.png';
+//import mildred from '../assets/admins/mildred.png';
+import unknow from '../assets/admins/unknow.png';
 
 const staffMembers = [
-  {
-    id: 1,
-    name: ' Greece KO',
-    role: 'Admin General',
-    image: greece,
-    phone: '593981785853',
-    description: '',
-  },
-  {
-    id: 2,
-    name: 'Rebecca Moysam',
-    role: 'Admin Guayaquil',
-    image: becca,
-    phone: '593960054439',
-    description: '',
-  },
-  {
-    id: 3,
-    name: 'Danny de la Torre',
-    role: 'Admin Guayaquil',
-    image: danny,
-    phone: '',
-    description: '',
-  },
-  {
-    id: 4,
-    name: 'Alex',
-    role: 'Admin Sto Domingo',
-    image: alex,
-    phone: '593939253879',
-    description: '',
-  },
-  {
-    id: 5,
-    name: 'Wellington Castillo',
-    role: 'Admin Machala',
-    image: well,
-    phone: '593986615580',
-    description: '',
-  },
-  {
-    id: 6,
-    name: 'Damian',
-    role: 'Admin Quito',
-    image: damian,
-    phone: '593984509921',
-    description: '',
-  },
-  {
-    id: 7,
-    name: 'Anthony Bernal',
-    role: 'Admin Manta',
-    image: bernal,
-    phone: '593939253879',
-    description: '',
-  },
-  {
-    id: 8,
-    name: 'Dayanara Alva',
-    role: 'Admin Manta',
-    image: dayanara,
-    phone: '593959913044',
-    description: '',
-  },
-  ,
-  {
-    id: 9,
-    name: 'Pedro Villamil',
-    role: 'Admin Manta',
-    image: pedro,
-    phone: '593991260786',
-    description: '',
-  },
+  { id: 1, name: 'Greece KO',             role: 'Admin General',     image: greece,    phone: '593981785853' },
+  { id: 2, name: 'Rebecca Moysam',        role: 'Admin Guayaquil',   image: becca,     phone: '593960054439' },
+  { id: 3, name: 'Danny de la Torre',     role: 'Admin Guayaquil',   image: danny,     phone: '593983568294' },
+  { id: 4, name: 'Alex',                  role: 'Admin Sto Domingo', image: alex,      phone: '593939253879' },
+  { id: 5, name: 'Wellington Castillo',   role: 'Admin Machala',     image: well,      phone: '593986615580' },
+  { id: 6, name: 'Juan Pablo Rodriguez',  role: 'Admin Quito',       image: juanpablo, phone: '593992715387' },
+  { id: 7, name: 'Anthony Bernal',        role: 'Admin Manta',       image: bernal,    phone: '593939253879' },
+  { id: 8, name: 'Dayanara Alava',        role: 'Admin Manta',       image: dayanara,  phone: '593959913044' },
+  { id: 9, name: 'Pedro Villamil',        role: 'Admin Manta',       image: pedro,     phone: '593991260786' },
+  { id: 10, name: 'Gabriel Basantes',     role: 'Admin Cotacachi',   image: gabriel,   phone: '593960651971' },
+  { id: 11, name: 'Mildred Cantos',       role: 'Admin Guayaquill',  image: unknow,   phone: '593961354863' },
+   
 ];
+
+/*
+* Haru no e añadida por que aun no tiene ningun plan!
+* { id: 12, name: 'Elizabeth',            role: 'Admin Santa Elena', image: elizabeth, phone: '593997362590' },
+*/
+
 
 function Staff() {
   return (
