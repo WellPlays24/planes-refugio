@@ -4,12 +4,11 @@ import well from '../assets/birthdays/well.png';
 import greece from '../assets/birthdays/greece.png';
 import becca from '../assets/birthdays/becca.png';
 //import nicole from '../assets/birthdays/nicole.png';
-import danny from '../assets/birthdays/danny.png';
 //import alex from '../assets/birthdays/alex.png';
 //import damian from '../assets/birthdays/damian.png';
 //import maria from '../assets/birthdays/maria.png';
 import damiana from '../assets/birthdays/damiana.png';
-import angel from '../assets/birthdays/angelpk.png'; 
+import angel from '../assets/birthdays/angel.png'; 
 import lider from '../assets/birthdays/lider.png'; 
 import marichuy from '../assets/birthdays/marichuy.png'; 
 import josue from '../assets/birthdays/josue.png'; 
@@ -17,12 +16,12 @@ import roberta from '../assets/birthdays/roberta.png';
 import gloria from '../assets/birthdays/gloria.png'; 
 import jordy from '../assets/birthdays/jordy.png'; 
 import danny from '../assets/birthdays/danny.png';
-import dayana from '../assets/birthdays/dayana.png'; 
+import dayanara from '../assets/birthdays/dayanara.png'; 
 import gustavo from '../assets/birthdays/gustavo.png'; 
 import elvys from '../assets/birthdays/elvys.png'; 
 import lanita from '../assets/birthdays/lanita.png'; 
 import anaCristina from '../assets/birthdays/anacristina.png'; 
-import brigitte from '../assets/birthdays/brigitte.png'; 
+import dayana from '../assets/birthdays/dayana.png'; 
 import kevin from '../assets/birthdays/kevin.png'; 
 import lizMadelyne from '../assets/birthdays/lizmadelyne.png'; 
 import allison from '../assets/birthdays/allison.png'; 
@@ -46,12 +45,12 @@ const birthdayMembers = [
   { id: 8, name: 'Gloria Grimalda Cabrera Armijos', birthday: '2004-03-02', place: 'El Guabo', image: gloria }, //   3 de marzo
   { id: 9, name: 'Jordy Cali Marcillo', birthday: '2000-05-19', place: 'Guayaquil', image: jordy }, //   20 de mayo
   { id: 10, name: 'Danny De La Torre', birthday: '2000-04-11', place: 'Guayaquil', image: danny }, //   12 de abril
-  { id: 11, name: 'Dayanara Alava', birthday: '1999-03-22', place: 'Manta y Quito', image: dayana }, //   23 de marzo
+  { id: 11, name: 'Dayanara Alava', birthday: '1999-03-22', place: 'Manta y Quito', image: dayanara }, //   23 de marzo
   { id: 12, name: 'Gustavo Samuel Sandoya Sánchez', birthday: '2000-08-15', place: 'Guayaquil', image: gustavo }, //   16 de agosto
   { id: 13, name: 'Elvys Anderson Donoso Cedeño', birthday: '2007-06-27', place: 'Manabí-El Carmen', image: elvys }, //   28 de junio
   { id: 14, name: 'Lanita Castillo', birthday: '2005-04-02', place: 'Quito', image: lanita }, //  3 de abril
   { id: 15, name: 'Ana Cristina Villacres López', birthday: '2000-10-11', place: 'Santo Domingo', image: anaCristina }, //   12 de octubre
-  { id: 16, name: 'Brigitte Dayana Reina', birthday: '2006-07-10', place: 'Manta', image: brigitte }, //  11 de julio
+  { id: 16, name: 'Brigitte Dayana Reina', birthday: '2006-07-10', place: 'Manta', image: dayana }, //  11 de julio
   { id: 17, name: 'Kevin Esteven Cevallos Baque', birthday: '1995-09-27', place: 'Guayaquil', image: kevin }, //  28 de septiembre
   { id: 18, name: 'Liz Madelyne Tumbaco Peñafiel', birthday: '1999-04-19', place: 'Guayaquil', image: lizMadelyne }, //  20 de abril
   { id: 19, name: 'Allison Nicole Toapanta Arguello', birthday: '2004-09-09', place: 'Guayaquil', image: allison }, //  10 de septiembre
