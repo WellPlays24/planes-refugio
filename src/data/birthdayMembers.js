@@ -33,6 +33,14 @@ import axel from '../assets/birthdays/axel.png';
 import melani from '../assets/birthdays/melani.png';
 import bernal from '../assets/birthdays/bernal.png';
 import gia from '../assets/birthdays/gia.png';
+import jessenia from '../assets/birthdays/jessenia.png';
+import dayannakatherine from '../assets/birthdays/dayannakatherine.png';
+import magni from '../assets/birthdays/magni.png';
+import katherine from '../assets/birthdays/katherine.png';
+import stevenreyes from '../assets/birthdays/stevenreyes.png';
+import alejandrarechua from '../assets/birthdays/alejandrarechua.png';
+import alexandertibanta from '../assets/birthdays/alexandertibanta.png';
+
 
 const birthdayMembers = [
   { id: 0, name: 'Wellington Castillo', birthday: '1999-05-31', place: 'Machala', image: well }, //   30 de may
@@ -64,6 +72,15 @@ const birthdayMembers = [
   { id: 26, name: 'Melani Joza', birthday: '2002-01-05', place: 'El Carmen', image: melani }, //   4 de ene
   { id: 27, name: 'Anthony Bernal', birthday: '2002-04-27', place: 'Manta', image: bernal }, //   26 de abr
   { id: 28, name: 'Gia Medina', birthday: '2002-06-26', place: 'Manta', image: gia }, //   25 de jun
+  
+  { id: 29, name: 'Jessenia Villamar Cabrera', birthday: '1999-10-14', place: 'Guayaquil', image: jessenia }, // 13 de oct
+  { id: 30, name: 'Dayanna Katherine Arcos García', birthday: '1996-02-25', place: 'Guayaquil', image: dayannakatherine }, // 24 de feb 
+  { id: 31, name: 'Magni Jiuliana Paredes Burgos', birthday: '2001-04-07', place: 'Guayaquil', image: magni }, // 6 de abr
+  { id: 32, name: 'Katherine Daniela Cañar Sumba', birthday: '2006-12-03', place: 'La Troncal', image: katherine }, // 2 de dic
+  { id: 33, name: 'Steven Eduardo Reyes Arévalo', birthday: '2004-05-17', place: 'La Troncal', image: stevenreyes }, // 16 de may
+  { id: 34, name: 'Alejandra Arechúa', birthday: '2025-04-10', place: 'Manta', image: alejandrarechua }, // 9 de abr
+  { id: 35, name: 'Alexander Francisco Tibanta Miranda', birthday: '2001-12-06', place: 'Quito', image: alexandertibanta }, // 5 de dic
+
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
 ];
 
