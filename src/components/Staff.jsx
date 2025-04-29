@@ -13,7 +13,7 @@ import dayanara from '../assets/admins/dayanara.png';
 import pedro from '../assets/admins/pedro.png';
 import gabriel from '../assets/admins/gabriel.png';
 //import elizabeth from '../assets/admins/elizabeth.png';
-//import mildred from '../assets/admins/mildred.png';
+import mildred from '../assets/admins/mildred.png';
 import unknow from '../assets/admins/unknow.png';
 
 const staffMembers = [
@@ -27,7 +27,7 @@ const staffMembers = [
   { id: 8, name: 'Dayanara Alava',        role: 'Admin Manta',       image: dayanara,  phone: '593959913044' },
   { id: 9, name: 'Pedro Villamil',        role: 'Admin Manta',       image: pedro,     phone: '593991260786' },
   { id: 10, name: 'Gabriel Basantes',     role: 'Admin Cotacachi',   image: gabriel,   phone: '593960651971' },
-  { id: 11, name: 'Mildred Cantos',       role: 'Admin Guayaquill',  image: unknow,   phone: '593961354863' },
+  { id: 11, name: 'Mildred Cantos',       role: 'Admin Guayaquill',  image: mildred,   phone: '593961354863' },
    
 ];
 
