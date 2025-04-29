@@ -1,121 +1,29 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';  // Importamos react-calendar
 import './Birthdays.css';  // Asegúrate de tener este archivo de estilo
-import well from '../assets/birthdays/well.png'; 
-import greece from '../assets/birthdays/greece.png';
-import becca from '../assets/birthdays/becca.png';
-import nicole from '../assets/birthdays/nicole.png';
-import danny from '../assets/birthdays/danny.png';
-import alex from '../assets/birthdays/alex.png';
-import bernal from '../assets/birthdays/bernal.png';
-import damian from '../assets/birthdays/damian.png';
-import maria from '../assets/birthdays/maria.png';
-import damiana from '../assets/birthdays/damiana.png';
-import angel from '../assets/birthdays/angelpk.png'; 
+import birthdayMembers from '../data/birthdayMembers';  // Importamos los datos de cumpleaños
 
-// Datos de ejemplo de cumpleaños
-const birthdayMembers = [
-  {
-    id: 1,
-    name: 'Greece',
-    birthday: '1999-05-30',
-    place: 'Manta',
-    image: greece,
-  },
-  {
-    id: 2,
-    name: 'Rebecca Moysam',
-    birthday: '2002-05-09', // 8 de mayo
-    place: 'Guayaquill',
-    image: becca,
-  },
-  {
-    id: 3,
-    name: 'Alex',
-    birthday: '2025-11-21', // 20 de noviembre
-    place: 'Santo Domingo',
-    image: alex,
-  },
-  {
-    id: 4,
-    name: 'Wellington',
-    birthday: '1999-05-31', // 30 de mayo
-    place: 'Machala',
-    image: well,
-  },
-  {
-    id: 5,
-    name: 'Nicole',
-    birthday: '2025-04-29', // 28 de abril
-    place: 'Manta',
-    image: nicole,
-  },
-  {
-    id: 6,
-    name: 'Danny',
-    birthday: '1999-05-30',
-    place: 'Manta',
-    image: danny,
-  },
-  {
-    id: 7,
-    name: 'Bernal',
-    birthday: '1999-05-30',
-    place: 'Manta',
-    image: bernal,
-  },
-  {
-    id: 8,
-    name: 'Damian',
-    birthday: '1999-05-30',
-    place: 'Quito',
-    image: damian,
-  },
-  {
-    id: 9,
-    name: 'Maria',
-    birthday: '2025-05-21', // 20 de mayo
-    place: 'Cuenca',
-    image: maria,
-  },
-  {
-    id: 10,
-    name: 'Damiana Herdoiza ',
-    birthday: '2005-11-08', // 7 de noviembre
-    place: 'Guayaquill',
-    image: damiana, 
-  },
-  {
-    id: 11,
-    name: 'Angel PK',
-    birthday: '1998-05-13', // 12 de mayo
-    place: 'Guayaquill',
-    image: angel, 
-  }
-  // Añadir más miembros con cumpleaños según sea necesario
-];
+// Función para dar formato a la fecha
+const formatDate = (date) => {
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return date.toLocaleDateString('es-ES', options);
+};
 
 function Birthdays() {
   // Estado para la fecha seleccionada
   const [selectedDate, setSelectedDate] = useState(new Date());
-  
+
   // Filtramos a los miembros según la fecha seleccionada (comparando solo mes y día)
   const filteredMembers = birthdayMembers.filter(member => {
     const birthday = new Date(member.birthday);
     const selected = new Date(selectedDate);
-    
+
     // Comparamos solo el mes y el día
     return (
       birthday.getMonth() === selected.getMonth() &&
       birthday.getDate() === selected.getDate()
     );
   });
-
-  // Función para dar formato a la fecha
-  const formatDate = (date) => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return date.toLocaleDateString('es-ES', options);
-  };
 
   return (
     <section className="cumpleaños-container">
