@@ -40,6 +40,9 @@ import katherine from '../assets/birthdays/katherine.png';
 import stevenreyes from '../assets/birthdays/stevenreyes.png';
 import alejandrarechua from '../assets/birthdays/alejandrarechua.png';
 import alexandertibanta from '../assets/birthdays/alexandertibanta.png';
+import eliquiroz from '../assets/birthdays/eliquiroz.png';
+import mateojosue from '../assets/birthdays/mateojosue.png';
+import nury from '../assets/birthdays/nury.png';
 
 
 const birthdayMembers = [
@@ -80,6 +83,10 @@ const birthdayMembers = [
   { id: 33, name: 'Steven Eduardo Reyes Arévalo', birthday: '2004-05-17', place: 'La Troncal', image: stevenreyes }, // 16 de may
   { id: 34, name: 'Alejandra Arechúa', birthday: '2025-04-10', place: 'Manta', image: alejandrarechua }, // 9 de abr
   { id: 35, name: 'Alexander Francisco Tibanta Miranda', birthday: '2001-12-06', place: 'Quito', image: alexandertibanta }, // 5 de dic
+
+  { id: 36, name: 'Elizabeth  Quiroz', birthday: '2004-02-17', place: 'Manta', image: eliquiroz }, // 16 de feb
+  { id: 37, name: 'Mateo Josue Quiñonez', birthday: '2003-02-14', place: 'Piñas, El Oro', image: mateojosue }, // 13 de feb
+  { id: 38, name: 'Nury Sarango', birthday: '1997-01-28', place: 'Machala', image: nury }, // 27 de ene
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
 ];
