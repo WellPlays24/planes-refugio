@@ -10,6 +10,8 @@ import alex from '../assets/birthdays/alex.png';
 import bernal from '../assets/birthdays/bernal.png';
 import damian from '../assets/birthdays/damian.png';
 import maria from '../assets/birthdays/maria.png';
+import damiana from '../assets/birthdays/damiana.png';
+import angel from '../assets/birthdays/angelpk.png'; 
 
 // Datos de ejemplo de cumpleaños
 const birthdayMembers = [
@@ -22,9 +24,9 @@ const birthdayMembers = [
   },
   {
     id: 2,
-    name: 'Becca',
-    birthday: '1999-05-30',
-    place: 'Guayaquil',
+    name: 'Rebecca Moysam',
+    birthday: '2002-05-09', // 8 de mayo
+    place: 'Guayaquill',
     image: becca,
   },
   {
@@ -76,6 +78,20 @@ const birthdayMembers = [
     place: 'Cuenca',
     image: maria,
   },
+  {
+    id: 10,
+    name: 'Damiana Herdoiza ',
+    birthday: '2005-11-08', // 7 de noviembre
+    place: 'Guayaquill',
+    image: damiana, 
+  },
+  {
+    id: 11,
+    name: 'Angel PK',
+    birthday: '1998-05-13', // 12 de mayo
+    place: 'Guayaquill',
+    image: angel, 
+  }
   // Añadir más miembros con cumpleaños según sea necesario
 ];
 

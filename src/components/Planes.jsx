@@ -4,7 +4,7 @@ import './Planes.css'; // Opcional: Si tienes estilos adicionales
 
 // Imágenes de ejemplo
 import campingImage1 from '../assets/camping-sto-domingo.jpg';
-import campingImage2 from '../assets/camping-amazonia.jpg';
+import campingImage2 from '../assets/camping-montañita.jpg';
 
 
 function Planes() {
@@ -32,7 +32,7 @@ function Planes() {
           <img
             className="d-block w-100"
             src={campingImage2} // Cambia esta ruta según la ubicación de la imagen
-            alt="Camping Amazonia"
+            alt="Camping Montañita"
           />
           <Carousel.Caption>
             <h3></h3>
