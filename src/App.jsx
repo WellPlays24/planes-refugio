@@ -15,6 +15,9 @@ import Birthdays from './components/Birthdays'; // Asegúrate de que la ruta de 
 
 
 function App() {
+
+  
+
   return (
     <Router>
       <Navbar />  {/* Esto muestra el navbar */}

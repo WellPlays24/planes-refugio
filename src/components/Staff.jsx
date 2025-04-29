@@ -4,17 +4,18 @@ import './Staff.css'; // Importa los estilos
 // Datos del personal
 import greece from '../assets/admins/greece.png';
 import becca from '../assets/admins/becca.png';
-import nicole from '../assets/admins/nicole.png';
 import danny from '../assets/admins/danny.png';
 import alex from '../assets/admins/alex.png';
 import well from '../assets/admins/well.png';
 import bernal from '../assets/admins/bernal.png';
 import damian from '../assets/admins/damian.png';
+import dayanara from '../assets/admins/dayanara.png';
+import pedro from '../assets/admins/pedro.png';
 
 const staffMembers = [
   {
     id: 1,
-    name: 'Greece',
+    name: ' Greece KO',
     role: 'Admin General',
     image: greece,
     phone: '593981785853',
@@ -22,7 +23,7 @@ const staffMembers = [
   },
   {
     id: 2,
-    name: 'Becca',
+    name: 'Rebecca Moysam',
     role: 'Admin Guayaquil',
     image: becca,
     phone: '593960054439',
@@ -30,7 +31,7 @@ const staffMembers = [
   },
   {
     id: 3,
-    name: 'Danny',
+    name: 'Danny de la Torre',
     role: 'Admin Guayaquil',
     image: danny,
     phone: '',
@@ -46,7 +47,7 @@ const staffMembers = [
   },
   {
     id: 5,
-    name: 'Wellington',
+    name: 'Wellington Castillo',
     role: 'Admin Machala',
     image: well,
     phone: '593986615580',
@@ -62,10 +63,27 @@ const staffMembers = [
   },
   {
     id: 7,
-    name: 'Bernal',
+    name: 'Anthony Bernal',
     role: 'Admin Manta',
     image: bernal,
     phone: '593939253879',
+    description: '',
+  },
+  {
+    id: 8,
+    name: 'Dayanara Alva',
+    role: 'Admin Manta',
+    image: dayanara,
+    phone: '593959913044',
+    description: '',
+  },
+  ,
+  {
+    id: 9,
+    name: 'Pedro Villamil',
+    role: 'Admin Manta',
+    image: pedro,
+    phone: '593991260786',
     description: '',
   },
 ];
