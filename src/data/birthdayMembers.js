@@ -43,6 +43,11 @@ import alexandertibanta from '../assets/birthdays/alexandertibanta.png';
 import eliquiroz from '../assets/birthdays/eliquiroz.png';
 import mateojosue from '../assets/birthdays/mateojosue.png';
 import nury from '../assets/birthdays/nury.png';
+import raulasqui from '../assets/birthdays/raulasqui.png';
+import davidbravo from '../assets/birthdays/davidbravo.png';
+import marialalbay from '../assets/birthdays/marialalbay.png';
+import kevinpazmino from '../assets/birthdays/kevinpazmiño.png';
+import brizna from '../assets/birthdays/briznaullauri.png';
 
 
 const birthdayMembers = [
@@ -75,18 +80,21 @@ const birthdayMembers = [
   { id: 26, name: 'Melani Joza', birthday: '2002-01-05', place: 'El Carmen', image: melani }, //   4 de ene
   { id: 27, name: 'Anthony Bernal', birthday: '2002-04-27', place: 'Manta', image: bernal }, //   26 de abr
   { id: 28, name: 'Gia Medina', birthday: '2002-06-26', place: 'Manta', image: gia }, //   25 de jun
-  
-  { id: 29, name: 'Jessenia Villamar Cabrera', birthday: '1999-10-14', place: 'Guayaquil', image: jessenia }, // 13 de oct
-  { id: 30, name: 'Dayanna Katherine Arcos García', birthday: '1996-02-25', place: 'Guayaquil', image: dayannakatherine }, // 24 de feb 
-  { id: 31, name: 'Magni Jiuliana Paredes Burgos', birthday: '2001-04-07', place: 'Guayaquil', image: magni }, // 6 de abr
-  { id: 32, name: 'Katherine Daniela Cañar Sumba', birthday: '2006-12-03', place: 'La Troncal', image: katherine }, // 2 de dic
-  { id: 33, name: 'Steven Eduardo Reyes Arévalo', birthday: '2004-05-17', place: 'La Troncal', image: stevenreyes }, // 16 de may
-  { id: 34, name: 'Alejandra Arechúa', birthday: '2025-04-10', place: 'Manta', image: alejandrarechua }, // 9 de abr
-  { id: 35, name: 'Alexander Francisco Tibanta Miranda', birthday: '2001-12-06', place: 'Quito', image: alexandertibanta }, // 5 de dic
-
+  { id: 29, name: 'Jessenia Villamar', birthday: '1999-10-14', place: 'Guayaquil', image: jessenia }, // 13 de oct
+  { id: 30, name: 'Dayanna Arcos', birthday: '1996-02-25', place: 'Guayaquil', image: dayannakatherine }, // 24 de feb 
+  { id: 31, name: 'Magni Paredes', birthday: '2001-04-07', place: 'Guayaquil', image: magni }, // 6 de abr
+  { id: 32, name: 'Daniela Cañar', birthday: '2006-12-03', place: 'La Troncal', image: katherine }, // 2 de dic
+  { id: 33, name: 'Steven Reyes', birthday: '2004-05-17', place: 'La Troncal', image: stevenreyes }, // 16 de may
+  { id: 34, name: 'Alejandra Arechúa', birthday: '2005-04-10', place: 'Manta', image: alejandrarechua }, // 9 de abr
+  { id: 35, name: 'Alexander Tibanta', birthday: '2001-12-06', place: 'Quito', image: alexandertibanta }, // 5 de dic
   { id: 36, name: 'Elizabeth  Quiroz', birthday: '2004-02-17', place: 'Manta', image: eliquiroz }, // 16 de feb
   { id: 37, name: 'Mateo Josue Quiñonez', birthday: '2003-02-14', place: 'Piñas, El Oro', image: mateojosue }, // 13 de feb
   { id: 38, name: 'Nury Sarango', birthday: '1997-01-28', place: 'Machala', image: nury }, // 27 de ene
+  { id: 39, name: 'Raul Asqui', birthday: '2000-11-07', place: 'La Libertad', image: raulasqui }, // 7 de nov 
+  { id: 40, name: 'David Bravo', birthday: '1997-09-27', place: 'Santa Elena - La Libertad', image: davidbravo },
+  { id: 41, name: 'Maria Lalbay', birthday: '2006-12-06', place: 'Cuenca', image: marialalbay },
+  { id: 42, name: 'Kevin Pazmiño', birthday: '2000-12-26', place: 'Quito', image: kevinpazmino },
+  { id: 43, name: 'Brizna Ullauri', birthday: '1994-10-12', place: 'Machala', image: brizna },
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
 ];
