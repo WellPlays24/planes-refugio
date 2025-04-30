@@ -111,7 +111,7 @@ function Birthdays() {
               {viewMode === 'month' && (
                 <p className="birthday-date">{formatDate(new Date(member.birthday))}</p>
               )}
-              <p className="birthday-age">¡Feliz {calculateAge(member.birthday)} años!</p>
+              <p className="birthday-age">¡Felices {calculateAge(member.birthday)}!</p>
               <button onClick={() => showAlert(member)}>Felicitar</button>
             </div>
           ))
