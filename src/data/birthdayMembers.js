@@ -49,6 +49,8 @@ import marialalbay from '../assets/birthdays/marialalbay.png';
 import kevinpazmino from '../assets/birthdays/kevinpazmiño.png';
 import brizna from '../assets/birthdays/briznaullauri.png';
 import eleicer from '../assets/birthdays/eleicer.png';
+import joelarmando from '../assets/birthdays/joelarmando.png';
+import paulinamoreno from '../assets/birthdays/paumoreno.png';
 
 
 const birthdayMembers = [
@@ -93,11 +95,13 @@ const birthdayMembers = [
   { id: 38, name: 'Nury Sarango', birthday: '1997-01-28', place: 'Machala', image: nury }, // 27 de ene
   { id: 39, name: 'Raul Asqui', birthday: '2000-11-07', place: 'Santa Elena - La Libertad', image: raulasqui }, // 7 de nov 
   { id: 40, name: 'Elizabeth Quiroz', birthday: '2004-02-17', place: '', image: eliquiroz }, // 16 de feb
-  { id: 40, name: 'David Bravo', birthday: '1997-09-28', place: 'Manta', image: davidbravo }, // 27 de sep
-  { id: 41, name: 'Maria Lalbay', birthday: '2006-12-07', place: 'Cuenca', image: marialalbay }, // 6 de dic
-  { id: 42, name: 'Kevin Pazmiño', birthday: '2000-12-27', place: 'Quito', image: kevinpazmino }, // 26 de dic
-  { id: 43, name: 'Brizna Ullauri', birthday: '1994-10-13', place: 'Machala', image: brizna }, // 12 de oct
-  { id: 44, name: 'Eleicer Vargas', birthday: '2003-10-02', place: 'Manta', image: eleicer }, // 1 de oct
+  { id: 41, name: 'David Bravo', birthday: '1997-09-28', place: 'Manta', image: davidbravo }, // 27 de sep
+  { id: 42, name: 'Maria Lalbay', birthday: '2006-12-07', place: 'Cuenca', image: marialalbay }, // 6 de dic
+  { id: 43, name: 'Kevin Pazmiño', birthday: '2000-12-27', place: 'Quito', image: kevinpazmino }, // 26 de dic
+  { id: 44, name: 'Brizna Ullauri', birthday: '1994-10-13', place: 'Machala', image: brizna }, // 12 de oct
+  { id: 45, name: 'Eleicer Vargas', birthday: '2003-10-02', place: 'Manta', image: eleicer }, // 1 de oct
+  { id: 46, name: 'Joel Argüello', birthday: '2016-08-17', place: 'Santo Domingo', image: joelarmando }, // 12 de oct
+  { id: 47, name: 'Paulina Moreno', birthday: '2003-08-07', place: 'Quito', image: paulinamoreno }, // 1 de oct
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
 ];
