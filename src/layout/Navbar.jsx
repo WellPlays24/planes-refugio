@@ -36,7 +36,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link className="navbar-brand" to="/">
-          Bienvenido
+          <div className='bienvenido'>Bienvenido</div>
         </Link>
         <button className="menu-toggle" onClick={toggleMenu}>
           <span className="menu-icon">&#9776;</span> {/* Icono del menú */}
