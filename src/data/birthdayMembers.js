@@ -113,15 +113,15 @@ const birthdayMembers = [
   { id: 46, name: 'Joel Argüello', birthday: '2016-08-17', place: 'Santo Domingo', image: joelarmando }, // 12 de oct
   { id: 47, name: 'Paulina Moreno', birthday: '2003-08-07', place: 'Quito', image: paulinamoreno }, // 1 de oct
 
-  { id: 48, name: 'Damián Maho Yánez Mendoza', birthday: '1994-10-28', place: 'Guayaquil', image: damianmaho }, // 27 de oct
+  { id: 48, name: 'Damián Yánez', birthday: '1994-10-28', place: 'Guayaquil', image: damianmaho }, // 27 de oct
   { id: 49, name: 'Ivanita Ortiz', birthday: '2003-03-15', place: 'Esmeraldas', image: ivanitaortiz }, // 14 de mar
-  { id: 50, name: 'Alex Ariel Avella Rodríguez', birthday: '2002-11-21', place: 'Santo Domingo', image: alexavella }, // 20 de nov
+  { id: 50, name: 'Alex  Avella ', birthday: '2002-11-21', place: 'Santo Domingo', image: alexavella }, // 20 de nov
   { id: 51, name: 'Allison Rosero', birthday: '2000-05-05', place: 'Guayaquil', image: allisonrosero }, // 4 de may
   { id: 52, name: 'Katherine Piedra', birthday: '2001-05-15', place: 'Quito', image: katherinepiedra }, // 14 de may
   { id: 53, name: 'Brayan Ganchozo', birthday: '1999-04-25', place: 'Ecuatoriano', image: brayanganchozo }, // 24 de abr
   { id: 54, name: 'Duglas Vera', birthday: '1999-04-24', place: 'Rocafuerte Manabí', image: duglasvera }, // 23 de abr
-  { id: 55, name: 'Briteni Kristel Maridueña Moreira', birthday: '2005-12-25', place: 'Guayaquil', image: britenikristel }, // 24 de dic
-  { id: 56, name: 'Pedro Pablo Villamil Barzola', birthday: '2002-06-09', place: 'Manta', image: pedropablo }, // 8 de jun
+  { id: 55, name: 'Briteni Maridueña', birthday: '2005-12-25', place: 'Guayaquil', image: britenikristel }, // 24 de dic
+  { id: 56, name: 'Pedro Villamil', birthday: '2002-06-09', place: 'Manta', image: pedropablo }, // 8 de jun
 
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
