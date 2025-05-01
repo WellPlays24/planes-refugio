@@ -32,6 +32,10 @@ function App() {
         <Route path="/staff" element={<Staff />} /> 
         <Route path="/birthdays" element={<Birthdays />} /> 
       </Routes>
+      {/* Sección Hecho por */}
+      <div className="made-by text-center mt-4">
+        <p>Developed by: <strong><a href="https://www.instagram.com/wellington.castillo1999/" target="_blank" rel="noopener noreferrer">Wellington</a></strong></p>
+      </div>
     </Router>
   );
 }

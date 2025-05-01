@@ -32,10 +32,19 @@ function Home() {
         </div>
       </div>
 
-      {/* Sección Hecho por */}
-      <div className="made-by text-center mt-4">
-        <p>Hecho por: <strong>Wellington</strong></p>
+      {/* Sección Instagram */}
+      <div className="instagram-link text-center mt-4">
+        <p>Siguenos en:  
+          <br />
+          <a href="https://www.instagram.com/planesrefugio_/" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram" style={{ fontSize: '24px', color: '#E4405F',  }}></i>Instagram
+          </a>
+        </p>
       </div>
+
+
+      
+
     </section>
   );
 }

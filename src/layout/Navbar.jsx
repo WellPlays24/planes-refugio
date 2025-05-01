@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Importa Link para navegación
 import './Navbar.css'; // Asegúrate de tener este archivo CSS
+import homeImage from '../assets/planes-refugio.jpg';
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
@@ -36,7 +37,13 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link className="navbar-brand" to="/">
-          <div className='bienvenido'>Bienvenido</div>
+         
+          <div className='bienvenido'>
+          <img src={homeImage} alt="Imagen" className="home-image-navbar" />
+            
+             Bienvenido
+
+            </div>
         </Link>
         <button className="menu-toggle" onClick={toggleMenu}>
           <span className="menu-icon">&#9776;</span> {/* Icono del menú */}
