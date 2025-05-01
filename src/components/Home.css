@@ -60,6 +60,10 @@ p {
   color: #62ff00;
 }
 
+.made-by a {
+  color: #62ff00;
+}
+
 .made-by p {
   font-size: 1.1rem;
   margin: 0;

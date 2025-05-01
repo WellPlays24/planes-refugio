@@ -106,7 +106,8 @@ function Birthdays() {
             <div key={member.id} className="birthday-card">
               <img src={member.image} alt={member.name} className="birthday-image" />
               <h3>{member.name}</h3>
-              <p>¡Feliz cumpleaños!</p>
+              {/* Mostrar la fecha seleccionada */}
+              {/* <p>¡Feliz cumpleaños!</p> */}
               <h5>{member.place}</h5>
               {viewMode === 'month' && (
                 <p className="birthday-date">{formatDate(new Date(member.birthday))}</p>

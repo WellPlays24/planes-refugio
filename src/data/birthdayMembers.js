@@ -60,6 +60,7 @@ import brayanganchozo from '../assets/birthdays/brayanganchozo.png';
 import duglasvera from '../assets/birthdays/duglasvera.png';
 import britenikristel from '../assets/birthdays/britenikristel.png';
 import pedropablo from '../assets/birthdays/pedropablo.png';
+import josenkavelez from '../assets/birthdays/josenkavelez.png';
 
 
 
@@ -122,6 +123,7 @@ const birthdayMembers = [
   { id: 54, name: 'Duglas Vera', birthday: '1999-04-24', place: 'Rocafuerte Manabí', image: duglasvera }, // 23 de abr
   { id: 55, name: 'Briteni Maridueña', birthday: '2005-12-25', place: 'Guayaquil', image: britenikristel }, // 24 de dic
   { id: 56, name: 'Pedro Villamil', birthday: '2002-06-09', place: 'Manta', image: pedropablo }, // 8 de jun
+  { id: 58, name: 'Josenka Vélez', birthday: '2002-05-21', place: 'Manta', image: josenkavelez }, // 20 de may
 
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
