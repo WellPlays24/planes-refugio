@@ -72,7 +72,7 @@ function Birthdays() {
     <section className="cumpleaños-container">
       {/* Botón para redirigir a la encuesta */}
       <div className="survey-button-container">
-        <a href="https://forms.gle/jQ5XjNef2qppAoj19" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+        <a href="https://forms.gle/stNuMjRBpZgRnktV6" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
           Completa la encuesta para agregar tu cumpleaños
         </a>
       </div>
@@ -105,7 +105,13 @@ function Birthdays() {
           filteredMembers.map(member => (
             <div key={member.id} className="birthday-card">
               <img src={member.image} alt={member.name} className="birthday-image" />
-              <h3>{member.name}</h3>
+             
+              <h3>
+                <a href={member.ig} target="_blank" rel="noopener noreferrer">
+                  {member.name}
+                </a>
+              </h3>
+
               {/* Mostrar la fecha seleccionada */}
               {/* <p>¡Feliz cumpleaños!</p> */}
               <h5>{member.place}</h5>

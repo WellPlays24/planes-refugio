@@ -126,7 +126,7 @@
   }
   
   .survey-button-container a {
-    font-size: .2rem;
+    font-size: 1.2rem;
     padding: 10px 20px;
     background-color: #ff7f00;  /* Naranja */
     color: white;
@@ -136,7 +136,7 @@
   }
   
   .survey-button-container a:hover {
-    background-color: #121111;
+    background-color: #e67e22;
   }
   
   h2 {
@@ -153,14 +153,14 @@
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   font-weight: bold;
-  border-radius: 8px;
-  cursor: progress;
+  border-radius: 5px;
+  cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .birthday-card button:hover {
-  background-color: #170f06; /* Naranja más oscuro al pasar el cursor */
-  transform: scale(1.2); /* Efecto de ampliación al hacer hover */
+  background-color: #e67e00; /* Naranja más oscuro al pasar el cursor */
+  transform: scale(1.05); /* Efecto de ampliación al hacer hover */
 }
 
 .view-mode-selector {
