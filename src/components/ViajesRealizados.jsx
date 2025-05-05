@@ -12,22 +12,14 @@ function ViajesRealizados() {
   const viajes = [
     {
       id: 1,
-      nombre: "Viaje a la playa",
-      fecha: "2023-05-01",
-      lugar: "Crucita",
+      nombre: "Rave, Cascadas y Camping",
+      fecha: "2023-07-20",
+      lugar: "Santo Domingo",
       descripcion: "",
-      imagen: viaje1, // Usamos la variable de la imagen importada
+      imagen: viaje4, // Usamos la variable de la imagen importada
     },
     {
       id: 2,
-      nombre: "Aventura en la playa",
-      fecha: "2023-06-15",
-      lugar: "Puerto López",
-      descripcion: "",
-      imagen: viaje2, // Usamos la variable de la imagen importada
-    },
-    {
-      id: 3,
       nombre: "Tour en la selva",
       fecha: "2023-07-20",
       lugar: "Naranjal - Finca Mamá Angelita",
@@ -36,12 +28,21 @@ function ViajesRealizados() {
     },
     {
       id: 3,
-      nombre: "Rave, Cascadas y Camping",
-      fecha: "2023-07-20",
-      lugar: "Santo Domingo",
+      nombre: "Viaje a la playa",
+      fecha: "2023-05-01",
+      lugar: "Crucita",
       descripcion: "",
-      imagen: viaje4, // Usamos la variable de la imagen importada
+      imagen: viaje1, // Usamos la variable de la imagen importada
     },
+    {
+      id: 4,
+      nombre: "Aventura en la playa",
+      fecha: "2023-06-15",
+      lugar: "Puerto López",
+      descripcion: "",
+      imagen: viaje2, // Usamos la variable de la imagen importada
+    }
+    
   ];
 
   return (
