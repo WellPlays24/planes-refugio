@@ -22,7 +22,7 @@ function ViajesRealizados() {
       id: 2,
       nombre: "Tour en la selva",
       fecha: "2023-07-20",
-      lugar: "Naranjal - Finca Mamá Angelita",
+      lugar: "Naranjal",
       descripcion: "",
       imagen: viaje3, // Usamos la variable de la imagen importada
     },
@@ -58,9 +58,9 @@ function ViajesRealizados() {
             />
             <div className="viaje-info">
               <h3>{viaje.nombre}</h3>
-              <p><strong>Lugar:</strong> {viaje.lugar}</p>
-              <p><strong>Fecha:</strong> {viaje.fecha}</p>
-              <p>{viaje.descripcion}</p>
+              <p><strong>Lugar:</strong> {viaje.lugar} <br/>
+              <strong>Fecha:</strong> {viaje.fecha}</p>
+              
             </div>
           </div>
         ))}
