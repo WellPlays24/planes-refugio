@@ -5,6 +5,7 @@ import './ViajesRealizados.css'; // Estilos específicos para este componente
 import viaje1 from '../assets/viaje-cruzita.jpg'; // Asegúrate de tener la imagen en esta ruta
 import viaje2 from '../assets/viaje-puerto-lopez.jpg'; // Asegúrate de tener la imagen en esta ruta
 import viaje3 from '../assets/viaje-mama-angelita.jpg'; // Asegúrate de tener la imagen en esta ruta
+import viaje4 from '../assets/viaje-sto-domingo.jpg'; // Asegúrate de tener la imagen en esta ruta
 
 function ViajesRealizados() {
   // Datos de ejemplo (esto puede venir de una API o de un archivo JSON)
@@ -32,6 +33,14 @@ function ViajesRealizados() {
       lugar: "Naranjal - Finca Mamá Angelita",
       descripcion: "",
       imagen: viaje3, // Usamos la variable de la imagen importada
+    },
+    {
+      id: 3,
+      nombre: "Rave, Cascadas y Camping",
+      fecha: "2023-07-20",
+      lugar: "Santo Domingo",
+      descripcion: "",
+      imagen: viaje4, // Usamos la variable de la imagen importada
     },
   ];
 

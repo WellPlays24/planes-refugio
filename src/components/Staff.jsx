@@ -20,7 +20,7 @@ const staffMembers = [
   { id: 1, name: 'Greece KO',             role: 'Admin General',     image: greece,    phone: '593981785853' },
   { id: 2, name: 'Rebecca Moysam',        role: 'Admin Guayaquil',   image: becca,     phone: '593960054439' },
   { id: 3, name: 'Danny de la Torre',     role: 'Admin Guayaquil',   image: danny,     phone: '593983568294' },
-  { id: 4, name: 'Alex',                  role: 'Admin Sto Domingo', image: alex,      phone: '593939253879' },
+  { id: 4, name: 'Alex Avella',           role: 'Admin Sto Domingo', image: alex,      phone: '593939253879' },
   { id: 5, name: 'Wellington Castillo',   role: 'Admin Machala',     image: well,      phone: '593986615580' },
   { id: 6, name: 'Juan Pablo Rodriguez',  role: 'Admin Quito',       image: juanpablo, phone: '593992715387' },
   { id: 7, name: 'Anthony Bernal',        role: 'Admin Manta',       image: bernal,    phone: '593939253879' },

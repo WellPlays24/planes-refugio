@@ -17,17 +17,9 @@ function Planes() {
       {/* Carrusel de Bootstrap */}
       <Carousel interval={4000} controls={true} indicators={true}>
         {/* Primer viaje */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={campingImage1} // Cambia esta ruta según la ubicación de la imagen
-            alt="Camping Santo Domingo"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
+        {/* Fue eliminado por que ya se realizó */}
+        {/* Debe agregarse a viajes realizados */}
+        
 
         {/* Segundo viaje */}
         <Carousel.Item>
