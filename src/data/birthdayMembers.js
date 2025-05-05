@@ -61,6 +61,9 @@ import duglasvera from '../assets/birthdays/duglasvera.png';
 import britenikristel from '../assets/birthdays/britenikristel.png';
 import pedropablo from '../assets/birthdays/pedropablo.png';
 import josenkavelez from '../assets/birthdays/josenkavelez.png';
+import marcoechev from '../assets/birthdays/marcoechev.png';
+import miguelgiler from '../assets/birthdays/miguelgiler.png';
+import angelicapoma from '../assets/birthdays/angelicapoma.png';
 
 
 
@@ -124,6 +127,11 @@ const birthdayMembers = [
   { id: 55, name: 'Briteni Maridueña', birthday: '2005-12-25', place: 'Guayaquil', image: britenikristel }, // 24 de dic
   { id: 56, name: 'Pedro Villamil', birthday: '2002-06-09', place: 'Manta', image: pedropablo }, // 8 de jun
   { id: 58, name: 'Josenka Vélez', birthday: '2002-05-21', place: 'Manta', image: josenkavelez }, // 20 de may
+  { id: 59, name: 'Marco Echeverría ', birthday: '1996-08-16', place: 'Ibarra', image: marcoechev, ig: 'https://www.instagram.com/marcoecheverriad?igsh=MWd5cjN2cGZ1MDhuag==' }, // 17 de ago
+  { id: 60, name: 'Miguel Giler', birthday: '1998-02-13', place: 'Manta y Lago Agrio', image: miguelgiler, ig : 'https://www.instagram.com/giiileeeeeeeeeer?igsh=MTNodHludGVzNjEwYw==' }, // 12 de feb
+  { id: 61, name: 'Angélica Poma', birthday: '1998-08-06', place: 'Loja', image: angelicapoma, ig: 'https://www.instagram.com/ma_angeps/profilecard/?igsh=MW5iMTF6aG9lbDQxOQ==' }, // 5 de ago
+  //{ id: 62, name: '', birthday: '', place: '', image: '' }, // 
+  
 
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
