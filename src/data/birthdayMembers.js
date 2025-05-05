@@ -114,7 +114,7 @@ const birthdayMembers = [
   { id: 43, name: 'Kevin Pazmiño', birthday: '2000-12-27', place: 'Quito', image: kevinpazmino }, // 26 de dic
   { id: 44, name: 'Brizna Ullauri', birthday: '1994-10-13', place: 'Machala', image: brizna }, // 12 de oct
   { id: 45, name: 'Eleicer Vargas', birthday: '2003-10-02', place: 'Manta', image: eleicer }, // 1 de oct
-  { id: 46, name: 'Joel Argüello', birthday: '2016-08-17', place: 'Santo Domingo', image: joelarmando }, // 12 de oct
+  { id: 46, name: 'Joel Argüello', birthday: '2005-08-17', place: 'Santo Domingo', image: joelarmando }, // 12 de oct
   { id: 47, name: 'Paulina Moreno', birthday: '2003-08-07', place: 'Quito', image: paulinamoreno }, // 1 de oct
 
   { id: 48, name: 'Damián Yánez', birthday: '1994-10-28', place: 'Guayaquil', image: damianmaho }, // 27 de oct
