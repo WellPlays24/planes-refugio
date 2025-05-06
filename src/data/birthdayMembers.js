@@ -64,6 +64,7 @@ import josenkavelez from '../assets/birthdays/josenkavelez.png';
 import marcoechev from '../assets/birthdays/marcoechev.png';
 import miguelgiler from '../assets/birthdays/miguelgiler.png';
 import angelicapoma from '../assets/birthdays/angelicapoma.png';
+import jeynneth from '../assets/birthdays/jeynneth.png';
 
 
 
@@ -130,8 +131,8 @@ const birthdayMembers = [
   { id: 59, name: 'Marco Echeverría ', birthday: '1996-08-16', place: 'Ibarra', image: marcoechev, ig: 'https://www.instagram.com/marcoecheverriad?igsh=MWd5cjN2cGZ1MDhuag==' }, // 17 de ago
   { id: 60, name: 'Miguel Giler', birthday: '1998-02-13', place: 'Manta y Lago Agrio', image: miguelgiler, ig : 'https://www.instagram.com/giiileeeeeeeeeer?igsh=MTNodHludGVzNjEwYw==' }, // 12 de feb
   { id: 61, name: 'Angélica Poma', birthday: '1998-08-06', place: 'Loja', image: angelicapoma, ig: 'https://www.instagram.com/ma_angeps/profilecard/?igsh=MW5iMTF6aG9lbDQxOQ==' }, // 5 de ago
-  //{ id: 62, name: '', birthday: '', place: '', image: '' }, // 
-  
+  { id: 62, name: 'Jeynneth Carrasco', birthday: '1999-06-04', place: 'Quito', image: jeynneth, ig: 'https://www.instagram.com/licenciada_jeynneth?igsh=cjhyeTRueHM1eGgw&utm_source=qr'  }, //  3 de jun
+  //{ id: 63, name: '', birthday: '', place: '', image: '' }, // 
 
 
   // Aquí puedes añadir más miembros con cumpleaños si es necesario.
