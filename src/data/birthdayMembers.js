@@ -65,6 +65,9 @@ import marcoechev from '../assets/birthdays/marcoechev.png';
 import miguelgiler from '../assets/birthdays/miguelgiler.png';
 import angelicapoma from '../assets/birthdays/angelicapoma.png';
 import jeynneth from '../assets/birthdays/jeynneth.png';
+import cristiandaniel from '../assets/birthdays/cristiandaniel.png';
+import helennathalia from '../assets/birthdays/helennathalia.png';
+import zulynicole from '../assets/birthdays/zulynicole.png';
 
 
 
@@ -132,6 +135,9 @@ const birthdayMembers = [
   { id: 60, name: 'Miguel Giler', birthday: '1998-02-13', place: 'Manta y Lago Agrio', image: miguelgiler, ig : 'https://www.instagram.com/giiileeeeeeeeeer?igsh=MTNodHludGVzNjEwYw==' }, // 12 de feb
   { id: 61, name: 'Angélica Poma', birthday: '1998-08-06', place: 'Loja', image: angelicapoma, ig: 'https://www.instagram.com/ma_angeps/profilecard/?igsh=MW5iMTF6aG9lbDQxOQ==' }, // 5 de ago
   { id: 62, name: 'Jeynneth Carrasco', birthday: '1999-06-04', place: 'Quito', image: jeynneth, ig: 'https://www.instagram.com/licenciada_jeynneth?igsh=cjhyeTRueHM1eGgw&utm_source=qr'  }, //  3 de jun
+  { id: 63, name: 'Cristian Gomez', birthday: '1998-01-23', place: 'Santo Domingo', image: cristiandaniel, ig: 'https://www.instagram.com/cristyandaniel1?igsh=MWhjMXhyOGF5MzRjeQ==' }, // 22 de ene  
+  { id: 64, name: 'Helen Salas', birthday: '2002-05-17', place: 'Quito', image: helennathalia, ig: 'https://www.instagram.com/nath_02s?igsh=MTJlM2RncXhpMzQwag%3D%3D&utm_source=qr' }, // 16 de may  
+  { id: 65, name: 'Nicole Delgado', birthday: '2002-04-29', place: 'Manta', image: zulynicole, ig: 'https://www.instagram.com/delgado6585?igsh=ZHA0djNyNXJnZzM%3D&utm_source=qr' }, // 28 de abr
   //{ id: 63, name: '', birthday: '', place: '', image: '' }, // 
 
 
