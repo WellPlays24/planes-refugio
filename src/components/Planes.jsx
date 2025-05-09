@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom'; // Importa Link para la navegación
 import campingImage1 from '../assets/camping-sto-domingo.jpg';
 import campingImage2 from '../assets/camping-montañita.jpg';
 import campingImage3 from '../assets/camping-cavernas.png';
+import campingImage4 from '../assets/2ndo-aniversario.jpg';
+import campingImage5 from '../assets/camping-cuenca.jpg';
+
 
 
 function Planes() {
@@ -46,6 +49,32 @@ function Planes() {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
+          
+        {/* Cuarto viaje */}
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={campingImage4}
+            alt="2ndo-aniversario"
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={campingImage5}
+            alt="camping-cuenca"
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
       </Carousel>
       <div className='text-center mb-4'>
         
