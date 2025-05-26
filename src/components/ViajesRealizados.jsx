@@ -6,42 +6,52 @@ import viaje1 from '../assets/viaje-cruzita.jpg'; // Asegúrate de tener la imag
 import viaje2 from '../assets/viaje-puerto-lopez.jpg'; // Asegúrate de tener la imagen en esta ruta
 import viaje3 from '../assets/viaje-mama-angelita.jpg'; // Asegúrate de tener la imagen en esta ruta
 import viaje4 from '../assets/viaje-sto-domingo.jpg'; // Asegúrate de tener la imagen en esta ruta
+import viaje5 from '../assets/viaje-montañita.jpg'; // Asegúrate de tener la imagen en esta ruta
 
 function ViajesRealizados() {
   // Datos de ejemplo (esto puede venir de una API o de un archivo JSON)
   const viajes = [
     {
-      id: 1,
+      id: 5,
+      nombre: "Travesía en la playa",
+      fecha: "2025-06-15",
+      lugar: "Montañita",
+      descripcion: "",
+      imagen: viaje5, // Usamos la variable de la imagen importada
+    },
+    {
+      id: 4,
       nombre: "Rave, Cascadas y Camping",
-      fecha: "2023-07-20",
+      fecha: "2025-07-20",
       lugar: "Santo Domingo",
       descripcion: "",
       imagen: viaje4, // Usamos la variable de la imagen importada
     },
     {
-      id: 2,
+      id: 3,
       nombre: "Tour en la selva",
-      fecha: "2023-07-20",
+      fecha: "2025-07-20",
       lugar: "Naranjal",
       descripcion: "",
       imagen: viaje3, // Usamos la variable de la imagen importada
     },
     {
-      id: 3,
+      id: 2,
       nombre: "Viaje a la playa",
-      fecha: "2023-05-01",
+      fecha: "2025-05-01",
       lugar: "Crucita",
       descripcion: "",
       imagen: viaje1, // Usamos la variable de la imagen importada
     },
     {
-      id: 4,
+      id: 1,
       nombre: "Aventura en la playa",
-      fecha: "2023-06-15",
+      fecha: "2025-06-15",
       lugar: "Puerto López",
       descripcion: "",
       imagen: viaje2, // Usamos la variable de la imagen importada
-    }
+    },
+    
     
   ];
 
