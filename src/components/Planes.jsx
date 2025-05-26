@@ -24,19 +24,6 @@ function Planes() {
         {/* Debe agregarse a viajes realizados */}
         
 
-        {/* Segundo viaje */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={campingImage2} // Cambia esta ruta según la ubicación de la imagen
-            alt="Camping Montañita"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
-
         {/* Tercer viaje */}
         <Carousel.Item>
           <img
@@ -63,17 +50,7 @@ function Planes() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={campingImage5}
-            alt="camping-cuenca"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
+        
 
       </Carousel>
       <div className='text-center mb-4'>
