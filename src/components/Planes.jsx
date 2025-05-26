@@ -28,7 +28,7 @@ function Planes() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={campingImage3} // Cambia esta ruta según la ubicación de la imagen
+            src={campingImage3} 
             alt="Camping Cavernas de Chillayacu"
           />
           <Carousel.Caption>
