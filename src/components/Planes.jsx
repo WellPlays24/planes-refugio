@@ -10,6 +10,9 @@ import campingImage3 from '../assets/camping-cavernas.png';
 import campingImage4 from '../assets/2ndo-aniversario.jpg';
 import campingImage5 from '../assets/camping-cuenca.jpg';
 
+import camping6 from '../assets/camping-yagui-urco.jpg';
+import camping7 from '../assets/vacaciones-cuenca.jpg';
+
 
 
 function Planes() {
@@ -22,27 +25,13 @@ function Planes() {
         {/* Primer viaje */}
         {/* Fue eliminado por que ya se realizó */}
         {/* Debe agregarse a viajes realizados */}
-        
-
-        {/* Tercer viaje */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={campingImage3} 
-            alt="Camping Cavernas de Chillayacu"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
           
         {/* Cuarto viaje */}
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={campingImage4}
-            alt="2ndo-aniversario"
+            src={camping6}
+            alt="camping yagui urco"
           />
           <Carousel.Caption>
             <h3></h3>
@@ -50,7 +39,18 @@ function Planes() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        
+        {/* Cuarto viaje */}
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={camping7}
+            alt="vacaciones-cuenca"
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
       </Carousel>
       <div className='text-center mb-4'>
