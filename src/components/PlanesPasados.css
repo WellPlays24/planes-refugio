@@ -1,0 +1,39 @@
+.planes-container {
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .carousel-item img {
+    width: auto; /* Ajusta el ancho automáticamente */
+    max-width:100%; /* Limita el ancho máximo de la imagen al 80% */
+    height: auto; /* Ajusta la altura proporcionalmente */
+    max-height: 550px; /* Limita la altura máxima */
+    object-fit: contain; /* Mantiene la relación de aspecto sin distorsionar */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 0 auto; /* Centra la imagen */
+  }
+  
+  .carousel-caption h3 {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .carousel-caption p {
+    color: #fff;
+  }
+
+  /* Cambiar color de los iconos de control de las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #e3192d; /* Puedes usar cualquier color que prefieras */
+  border-radius: 50%; /* Para hacerlo redondeado */
+}
+
+
+
+  

@@ -9,9 +9,12 @@ import QuienesSomos from './components/QuienesSomos';  // Asegúrate de que la r
 import Planes from './components/Planes';  // Asegúrate de que la ruta de importación sea correcta
 import Reglas from './components/Reglas';  // Asegúrate de que la ruta de importación sea correcta
 import ViajesRealizados from './components/ViajesRealizados';
+import ViajesPasados from './components/PlanesPasados'; // Asegúrate de que la ruta de importación sea correcta
 import Layiots from './components/Layiots';
 import Staff from './components/Staff';  
 import Birthdays from './components/Birthdays'; // Asegúrate de que la ruta de importación sea correcta
+
+
 
 
 function App() {
@@ -29,6 +32,8 @@ function App() {
         <Route path="/reglas" element={<Reglas />} /> 
         <Route path="/layiots" element={<Layiots />} /> 
         <Route path="/viajes-realizados" element={<ViajesRealizados />} />
+        <Route path="/viajes-pasados" element={<ViajesPasados />} /> 
+        {/* Asegúrate de que la ruta de importación sea correcta */}
         <Route path="/staff" element={<Staff />} /> 
         <Route path="/birthdays" element={<Birthdays />} /> 
       </Routes>
