@@ -12,6 +12,7 @@ import campingImage5 from '../assets/camping-cuenca.jpg';
 
 import camping6 from '../assets/camping-yagui-urco.jpg';
 import camping7 from '../assets/vacaciones-cuenca.jpg';
+import camping8 from '../assets/camping-jipijapa.jpg';
 
 
 
@@ -26,12 +27,14 @@ function Planes() {
         {/* Fue eliminado por que ya se realizó */}
         {/* Debe agregarse a viajes realizados */}
           
+        
+
         {/* Cuarto viaje */}
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={camping6}
-            alt="camping yagui urco"
+            src={camping7}
+            alt="vacaciones-cuenca"
           />
           <Carousel.Caption>
             <h3></h3>
@@ -43,8 +46,8 @@ function Planes() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={camping7}
-            alt="vacaciones-cuenca"
+            src={camping8}
+            alt="camping jipijapa"
           />
           <Carousel.Caption>
             <h3></h3>
