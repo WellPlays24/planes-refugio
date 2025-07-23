@@ -26,7 +26,7 @@ function Home() {
             <Link to="/layiots" className="btn btn-primary">Layiots</Link>
             <Link to="/planes" className="btn btn-primary">Planes</Link>
             <Link to="/viajes-realizados" className="btn btn-primary">Viajes Realizados</Link>
-            <Link to="/viajes-pasados" className="btn btn-primary">Viajes Anteriores</Link>
+            <Link to="/viajes-pasados" className="btn btn-primary">Flyers Anteriores</Link>
             <Link to="/staff" className="btn btn-primary">Staff</Link>
             <Link to="/birthdays" className="btn btn-primary">Cumpleaños</Link>
           </div>
